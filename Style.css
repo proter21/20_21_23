@@ -6,7 +6,7 @@ body {
     background-image: url('download.png');
     background-size: cover;
     background-position: center;
-    background-color: #f8f9fa; /* Светло сив цвят като заднина */
+    background-color: #f8f9fa; 
 }
 
 #content_container {
@@ -19,17 +19,17 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(192, 192, 192, 0.5); /* По-прозрачен сив цвят */
+    background-color: rgba(192, 192, 192, 0.5); 
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Лека сянка за контейнера */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
 }
 
 #form_header {
     font-size: 28px;
     text-align: center;
     margin-bottom: 30px;
-    color: #333; /* Тъмно сив цвят за заглавието */
+    color: #333; 
 }
 
 #form_content_container {
@@ -43,20 +43,20 @@ button {
     width: 100%;
     padding: 15px;
     margin-bottom: 20px;
-    border: 1px solid #ced4da; /* Светло сива рамка */
+    border: 1px solid #ced4da; 
     border-radius: 5px;
     font-size: 16px;
 }
 
 button {
-    background-color: #007bff; /* Син цвят за бутоните */
+    background-color: #007bff; 
     color: #fff;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Плавна анимация при ховър */
+    transition: background-color 0.3s ease; 
 }
 
 button:hover {
-    background-color: #0056b3; /* По-тъмно син цвят при ховър */
+    background-color: #0056b3; 
 }
 #content_container {
     position: relative;
@@ -68,20 +68,19 @@ button:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(192, 192, 192, 0.5); /* По-прозрачен сив цвят */
+    background-color: rgba(192, 192, 192, 0.5); 
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Лека сянка за контейнера */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
 }
 
 #hidden_text {
     position: absolute;
-    top: 10px; /* Настройте позицията според вашите предпочитания */
-    left: 10px; /* Настройте позицията според вашите предпочитания */
-    color: white; /* Бял цвят за текста */
-    font-size: 12px; /* Размер на шрифта */
-    z-index: 999; /* Уверете се, че този текст е над всичко друго */
+    top: 10px; 
+    left: 10px; 
+    color: white; 
+    font-size: 12px; 
+    z-index: 999; 
 }
-
 
 
